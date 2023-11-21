@@ -1,10 +1,8 @@
-//
+
 // pch.h
-//
+
 
 #pragma once
-
-#include "gtest/gtest.h"
 #ifndef PCH_H
 #define PCH_H
 
