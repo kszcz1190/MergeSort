@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MergeSortTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MergeSort.h" />
