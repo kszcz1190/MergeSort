@@ -59,3 +59,31 @@ TEST(MergeSortTest, RandomArrayTest)  //algorytm sortowania liczb losowych
 
 }
 
+TEST(MergeSortTest, NegativeNumbersTest) //algorytm sortuje tablice tylko z liczbami ujemnymi, 
+{
+	int arr[] = { -12, -3, -6, -7, -1, -34, -87, -19, -22 };
+	
+	MergeSort mergeSort;
+
+	mergeSort.sort(arr, 9);
+
+	for (int i = 0; i < 9; i++) {
+		EXPECT_LE(arr[i - 1], arr[i]); //LE - less or equal
+	}
+}
+
+TEST(MergeSortTest, NegativeAndPositiveNumbersTest) //algorytm sortuje tablice z liczbami ujemnymi i dodatnimi 
+{
+	int arr[] = { 12, -3, 6, -7, -1, 34, -87, -19, 22 };
+
+	MergeSort mergeSort;
+
+	mergeSort.sort(arr, 9);
+
+	for (int i = 0; i < 9; i++) {
+		EXPECT_LE(arr[i - 1], arr[i]); //LE - less or equal
+	}
+}
+
+
+
