@@ -85,7 +85,7 @@ TEST(MergeSortTest, NegativeAndPositiveNumbersTest) //algorytm sortuje tablice z
 	}
 }
 
-TEST(MergeSortTest, EmptyArrayTest) //algorytm sortuje tablice z liczbami ujemnymi i dodatnimi 
+TEST(MergeSortTest, EmptyArrayTest) //algorytm sortuje pustπ tablicÍ 
 {
 	const int size = 0;
 	int* arr = nullptr; //deklaruje wskaünik do typu int i inicjalizuje go wartoúciπ nullptr (pustym wskaünikiem).
